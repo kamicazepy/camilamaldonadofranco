@@ -1,0 +1,31 @@
+name: "Camila Maldonado"
+output_dir: docs
+# The website theme "cosmo" was chosen from
+# https://bootswatch.com/3/
+output:
+  html_document:
+    toc: yes
+    toc_float: yes
+    toc_depth: 2
+    theme: spacelab
+    highlight: tango
+    df_print: paged
+    lib_dir: site_libs
+    self_contained: no
+    code_folding: hide
+# All fa icons were obtained from https://fontawesome.com/icons?d=gallery
+navbar:
+  title: "Camila Maldonado"
+  left:
+    - text: "About me"
+      href: index.html
+    - text: "Projects"
+      href: more_info.html
+  right:
+   - icon: fas fa-file
+     href: file:///C:/Users/camil/Downloads/CamilaMaldonado_Resume.docx.pdf
+   - icon: fab fa-linkedin
+     href: https://www.linkedin.com/in/camilamaldonado/
+   - icon: fas fa-inbox
+     href: camilamaldonado01.cm@gmail.com
+    
