@@ -107,7 +107,7 @@ ggplot(culprits, aes(x = sum, y = reorder(motive, sum))) + geom_col()+labs(title
 Seems that Scooby Do was a really great hit between 2005 and 2006. Exactly the age at which I was five years old eating breakfast and watching it from my living room couch. 
 
 
-# SDS 192: Intro to Data Science" 
+# SDS 192: Intro to Data Science 
 This is a class I took in last Fall 2021. It was taught by Prof. Albert Kim. We learned how to analyze, wrangle and create data visualizations using R. 
 
 ## MP3: MiniProject, Farmers Market
@@ -202,4 +202,4 @@ However, we think that more farmers markets should be taken to counties where fo
 
 ## Final Project, The Simpsons: Was the hype true?
 My group partner, Brianna, and I built  website where we posted our analysis on The Simpsons. 
-Check it out at this link: 
+Check it out at this link: https://the-simpsons-2001.netlify.app/index.html
